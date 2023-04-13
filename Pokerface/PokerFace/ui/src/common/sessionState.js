@@ -1,0 +1,8 @@
+export const SessionState = Object.freeze({
+  VOTESTATE: 0,
+  FINILIZESTATE: 1,
+  FINISHSTATE: 2,
+  ALLUSERSVOTED: 3,
+  VOTINGSTART: 4,
+  NONECARDSSELECTED: 5,
+});

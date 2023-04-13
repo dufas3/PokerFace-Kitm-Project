@@ -1,0 +1,13 @@
+.poker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px 110px;
+}
+.voting {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 1300px;
+    width: 78.5%;
+}

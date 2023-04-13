@@ -1,0 +1,82 @@
+.card-css {
+    width: 150px;
+    height: 220px;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 5px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-middle {
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 5px;
+    border-style: solid;
+    width: 100px;
+    height: 155px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-middle .number {
+    font-family: Segoe UI;
+}
+
+.number-top {
+    text-align: right;
+    padding-right: 95px;
+    font-family: Segoe UI;
+    margin: 0 auto;
+}
+
+.number-bottom {
+    transform: rotate(180deg);
+    padding-right: 95px;
+    font-family: Segoe UI;
+    margin: 0 auto;
+}
+
+.number-top1 {
+    text-align: right;
+    padding-right: 115px;
+    font-family: Segoe UI;
+    margin: 0 auto;
+}
+
+.number-bottom1 {
+    transform: rotate(180deg);
+    padding-right: 115px;
+    font-family: Segoe UI;
+    margin: 0 auto;
+}
+
+/*------------------------------------------------------------------------------*/
+.selected-true {
+    color: white;
+
+}
+.selected-bg-true{
+    background: rgba(75, 154, 232);
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+
+.card-css:hover {
+    border-width: 1px;
+    border-color: #0307fc;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.card-button {
+    border-style: none;
+    background: none;
+}

@@ -1,0 +1,52 @@
+.moderator-indicator{
+    height: 12px;
+    width: 15px;
+    font-size: 10px;
+    color: #e10101;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.user-indicator{
+    height: 12px;
+    width: 15px;
+    font-size: 10px;
+    color: #01b201;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.icon {
+    background: #bbb8b8;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #bbb8b8;
+    border-radius: 75px;
+    width: 52px;
+    height: 52px;
+}
+.player-list {
+    overflow-y: scroll;
+    width: 375px;
+    min-width: 300px;
+    height: 720px;
+}
+.vote-icon{
+    width: 35px;
+    padding-right: 10px;
+    text-align: center;
+}
+.user-icon {
+    width: 25px;
+    margin-left: 30px;
+}
+.text-primary{
+    margin-left: 5px;
+}
+.out-of-border{
+    font-size: 15px;
+    padding-right: 10px;
+    text-align: center;
+    width: 50px;
+}
+.player-list-top{
+    max-width: 372px;
+}

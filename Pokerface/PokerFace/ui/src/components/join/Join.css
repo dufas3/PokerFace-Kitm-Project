@@ -1,0 +1,141 @@
+.center {
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+.register {
+    margin: 150px auto 0;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register input {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    font-family: Segoe UI, FontAwesome;
+    color: #706f6f;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.register .join-button h3{
+    padding: 9px 0;
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-style: none;
+    background: cornflowerblue;
+    color: white;
+    font-family: Segoe UI;
+    text-align: center;
+    font-size: 15px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    font-weight: bold;
+}
+.register .info h2 {
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight: unset;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.register .info h3 {
+    height: 25px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight: unset;
+    font-size: 14px;
+    margin: 0 0 30px;
+    color: #706f6f;
+}
+
+.register .login-text {
+    margin-top: 0px;
+    border-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    color: #706f6f;
+    font-family: Segoe UI;
+}
+
+.register .left-line {
+    margin-right: 35px;
+    font-size: 14px;
+    font-weight: unset;
+    color: #c7c5c5;
+}
+.register .join-button{
+    width: 400px;
+    border-style: unset;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.register .middle-text {
+    font-size: 14px;
+    font-weight: unset;
+    color: #706f6f;
+}
+
+.register .right-line {
+    margin-left: 35px;
+    font-size: 14px;
+    font-weight: unset;
+    color: #c7c5c5;
+}
+
+.register .login-button {
+    padding: 9px 0;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-style: none;
+    background: #ffffff;
+    color: #6495EDFF;
+    font-family: Segoe UI;
+    text-align: center;
+    font-size: 15px;
+    border-style: solid;
+    border-color: cornflowerblue;
+}
+
+.register .button {
+    text-decoration: none;
+}
+
+    .register .join-button h3:hover {
+        background: #0307fc;
+        border-color: #0307fc;
+    }
+
+    .register .login-button:hover {
+        border-color: #0307fc;
+        color: #0307fc;
+    }
+/*-------------------------------(Errors)-------------------------------*/
+.error{
+    height: 10px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error-text{
+    height: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 15px;
+}
+
